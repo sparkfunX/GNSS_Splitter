@@ -8643,6 +8643,59 @@ Power Layers</text>
 <wire x1="-0.4" y1="6" x2="0" y2="6.7" width="0.0762" layer="51"/>
 <wire x1="0" y1="6.7" x2="0.4" y2="6" width="0.0762" layer="51"/>
 </package>
+<package name="XX21">
+<description>&lt;h3&gt;XX21&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 8&lt;/li&gt;
+&lt;li&gt;Body width: 0.163" (max)&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="2.3" y1="1.97" x2="-2.3" y2="1.97" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1.97" x2="2.665" y2="-1.605" width="0.2032" layer="21" curve="90"/>
+<wire x1="-2.665" y1="1.605" x2="-2.3" y2="1.97" width="0.2032" layer="21" curve="-90.023829"/>
+<wire x1="2.3" y1="1.97" x2="2.665" y2="1.605" width="0.2032" layer="21" curve="-90.030084"/>
+<wire x1="-2.665" y1="-1.605" x2="-2.3" y2="-1.97" width="0.2032" layer="21" curve="90.060185"/>
+<wire x1="-2.3" y1="-1.97" x2="2.3" y2="-1.97" width="0.2032" layer="21"/>
+<wire x1="2.665" y1="-1.605" x2="2.665" y2="1.605" width="0.2032" layer="21"/>
+<wire x1="-2.665" y1="-1.605" x2="-2.665" y2="1.605" width="0.2032" layer="21"/>
+<rectangle x1="-2.159" y1="-3.302" x2="-1.651" y2="-2.2733" layer="51"/>
+<rectangle x1="-0.889" y1="-3.302" x2="-0.381" y2="-2.2733" layer="51"/>
+<rectangle x1="0.381" y1="-3.302" x2="0.889" y2="-2.2733" layer="51"/>
+<rectangle x1="1.651" y1="-3.302" x2="2.159" y2="-2.2733" layer="51"/>
+<rectangle x1="-0.889" y1="2.286" x2="-0.381" y2="3.302" layer="51"/>
+<rectangle x1="0.381" y1="2.286" x2="0.889" y2="3.302" layer="51"/>
+<rectangle x1="1.651" y1="2.286" x2="2.159" y2="3.302" layer="51"/>
+<smd name="1" x="-1.905" y="-2.8" dx="0.6" dy="1.2" layer="1" roundness="30" thermals="no"/>
+<smd name="2" x="-0.635" y="-2.8" dx="0.6" dy="1.2" layer="1" roundness="30"/>
+<smd name="3" x="0.635" y="-2.8" dx="0.6" dy="1.2" layer="1" roundness="30" thermals="no"/>
+<smd name="4" x="1.905" y="-2.8" dx="0.6" dy="1.2" layer="1" roundness="30" thermals="no"/>
+<smd name="5" x="1.905" y="2.8" dx="0.6" dy="1.2" layer="1" roundness="30"/>
+<smd name="6" x="0.635" y="2.8" dx="0.6" dy="1.2" layer="1" roundness="30" thermals="no"/>
+<smd name="7" x="-0.635" y="2.8" dx="0.6" dy="1.2" layer="1" roundness="30" thermals="no"/>
+<smd name="8" x="-1.905" y="2.8" dx="0.6" dy="1.2" layer="1" roundness="30"/>
+<text x="-3.175" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-2.159" y1="2.286" x2="-1.651" y2="3.302" layer="51"/>
+<polygon width="0.002540625" layer="21">
+<vertex x="-2.69875" y="-2.38125" curve="90"/>
+<vertex x="-3.01625" y="-2.06375" curve="90"/>
+<vertex x="-3.33375" y="-2.38125" curve="90"/>
+<vertex x="-3.01625" y="-2.69875" curve="90"/>
+</polygon>
+<polygon width="0.002540625" layer="51">
+<vertex x="-1.69875" y="-1.38125" curve="90"/>
+<vertex x="-2.01625" y="-1.06375" curve="90"/>
+<vertex x="-2.33375" y="-1.38125" curve="90"/>
+<vertex x="-2.01625" y="-1.69875" curve="90"/>
+</polygon>
+<wire x1="2.3" y1="2.07" x2="-2.3" y2="2.07" width="0.2032" layer="51"/>
+<wire x1="2.3" y1="-2.07" x2="2.665" y2="-1.705" width="0.2032" layer="51" curve="90"/>
+<wire x1="-2.665" y1="1.705" x2="-2.3" y2="2.07" width="0.2032" layer="51" curve="-90.023829"/>
+<wire x1="2.3" y1="2.07" x2="2.665" y2="1.705" width="0.2032" layer="51" curve="-90.030084"/>
+<wire x1="-2.665" y1="-1.705" x2="-2.3" y2="-2.07" width="0.2032" layer="51" curve="90.060185"/>
+<wire x1="-2.3" y1="-2.07" x2="2.3" y2="-2.07" width="0.2032" layer="51"/>
+<wire x1="2.665" y1="-1.705" x2="2.665" y2="1.705" width="0.2032" layer="51"/>
+<wire x1="-2.665" y1="-1.705" x2="-2.665" y2="1.705" width="0.2032" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ANTENNA-GROUNDED">
@@ -8657,6 +8710,20 @@ Power Layers</text>
 <text x="3.048" y="-2.286" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 <pin name="GND" x="2.54" y="-2.54" visible="off" length="short" rot="R90"/>
 <pin name="SIGNAL" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+</symbol>
+<symbol name="BP2G1+">
+<description>BP2G1+
+2 Ways MMIC DC Pass Power Splitter, 1200 - 2000 MHz, 50Ω</description>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="5.08" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;Value</text>
+<pin name="S" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="2" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="1" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="-10.16" y="-2.54" visible="pin" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8728,6 +8795,28 @@ Why hasn't anyone added the cutout polygons directly to the connector footprint?
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-16309" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BP2G1+_POWER_SPLITTER">
+<description>&lt;b&gt;BP2G1+&lt;/b&gt;&lt;br&gt;
+2 Ways MMIC DC Pass Power Splitter, 1200 - 2000 MHz, 50Ω</description>
+<gates>
+<gate name="U1" symbol="BP2G1+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XX21">
+<connects>
+<connect gate="U1" pin="1" pad="8"/>
+<connect gate="U1" pin="2" pad="5"/>
+<connect gate="U1" pin="GND" pad="1 3 4 6 7"/>
+<connect gate="U1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-17198" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8854,103 +8943,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="CAP-15063" constant="no"/>
 <attribute name="VALUE" value="47pF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="BP2G1">
-<packages>
-<package name="XX21">
-<description>&lt;h3&gt;XX21&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 8&lt;/li&gt;
-&lt;li&gt;Body width: 0.163" (max)&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="2.3" y1="1.97" x2="-2.3" y2="1.97" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1.97" x2="2.665" y2="-1.605" width="0.2032" layer="21" curve="90"/>
-<wire x1="-2.665" y1="1.605" x2="-2.3" y2="1.97" width="0.2032" layer="21" curve="-90.023829"/>
-<wire x1="2.3" y1="1.97" x2="2.665" y2="1.605" width="0.2032" layer="21" curve="-90.030084"/>
-<wire x1="-2.665" y1="-1.605" x2="-2.3" y2="-1.97" width="0.2032" layer="21" curve="90.060185"/>
-<wire x1="-2.3" y1="-1.97" x2="2.3" y2="-1.97" width="0.2032" layer="21"/>
-<wire x1="2.665" y1="-1.605" x2="2.665" y2="1.605" width="0.2032" layer="21"/>
-<wire x1="-2.665" y1="-1.605" x2="-2.665" y2="1.605" width="0.2032" layer="21"/>
-<rectangle x1="-2.159" y1="-3.302" x2="-1.651" y2="-2.2733" layer="51"/>
-<rectangle x1="-0.889" y1="-3.302" x2="-0.381" y2="-2.2733" layer="51"/>
-<rectangle x1="0.381" y1="-3.302" x2="0.889" y2="-2.2733" layer="51"/>
-<rectangle x1="1.651" y1="-3.302" x2="2.159" y2="-2.2733" layer="51"/>
-<rectangle x1="-0.889" y1="2.286" x2="-0.381" y2="3.302" layer="51"/>
-<rectangle x1="0.381" y1="2.286" x2="0.889" y2="3.302" layer="51"/>
-<rectangle x1="1.651" y1="2.286" x2="2.159" y2="3.302" layer="51"/>
-<smd name="1" x="-1.905" y="-2.8" dx="0.6" dy="1.2" layer="1" thermals="no"/>
-<smd name="2" x="-0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.8" dx="0.6" dy="1.2" layer="1" thermals="no"/>
-<smd name="4" x="1.905" y="-2.8" dx="0.6" dy="1.2" layer="1" thermals="no"/>
-<smd name="5" x="1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<smd name="6" x="0.635" y="2.8" dx="0.6" dy="1.2" layer="1" thermals="no"/>
-<smd name="7" x="-0.635" y="2.8" dx="0.6" dy="1.2" layer="1" thermals="no"/>
-<smd name="8" x="-1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
-<text x="-3.175" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-2.159" y1="2.286" x2="-1.651" y2="3.302" layer="51"/>
-<polygon width="0.002540625" layer="21">
-<vertex x="-2.69875" y="-2.38125" curve="90"/>
-<vertex x="-3.01625" y="-2.06375" curve="90"/>
-<vertex x="-3.33375" y="-2.38125" curve="90"/>
-<vertex x="-3.01625" y="-2.69875" curve="90"/>
-</polygon>
-<polygon width="0.002540625" layer="51">
-<vertex x="-1.69875" y="-1.38125" curve="90"/>
-<vertex x="-2.01625" y="-1.06375" curve="90"/>
-<vertex x="-2.33375" y="-1.38125" curve="90"/>
-<vertex x="-2.01625" y="-1.69875" curve="90"/>
-</polygon>
-<wire x1="2.3" y1="2.07" x2="-2.3" y2="2.07" width="0.2032" layer="51"/>
-<wire x1="2.3" y1="-2.07" x2="2.665" y2="-1.705" width="0.2032" layer="51" curve="90"/>
-<wire x1="-2.665" y1="1.705" x2="-2.3" y2="2.07" width="0.2032" layer="51" curve="-90.023829"/>
-<wire x1="2.3" y1="2.07" x2="2.665" y2="1.705" width="0.2032" layer="51" curve="-90.030084"/>
-<wire x1="-2.665" y1="-1.705" x2="-2.3" y2="-2.07" width="0.2032" layer="51" curve="90.060185"/>
-<wire x1="-2.3" y1="-2.07" x2="2.3" y2="-2.07" width="0.2032" layer="51"/>
-<wire x1="2.665" y1="-1.705" x2="2.665" y2="1.705" width="0.2032" layer="51"/>
-<wire x1="-2.665" y1="-1.705" x2="-2.665" y2="1.705" width="0.2032" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BP2G1+">
-<description>BP2G1+
-2 Ways MMIC DC Pass Power Splitter, 1200 - 2000 MHz, 50Ω</description>
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="5.08" size="1.778" layer="95">&gt;Name</text>
-<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;Value</text>
-<pin name="S" x="-10.16" y="2.54" visible="pin" length="short"/>
-<pin name="2" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="1" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="GND" x="-10.16" y="-2.54" visible="pin" length="short"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BP2G1+_POWER_SPLITTER">
-<description>&lt;b&gt;BP2G1+&lt;/b&gt;&lt;br&gt;
-2 Ways MMIC DC Pass Power Splitter, 1200 - 2000 MHz, 50Ω</description>
-<gates>
-<gate name="U1" symbol="BP2G1+" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="XX21">
-<connects>
-<connect gate="U1" pin="1" pad="8"/>
-<connect gate="U1" pin="2" pad="5"/>
-<connect gate="U1" pin="GND" pad="1 3 4 6 7"/>
-<connect gate="U1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -12672,7 +12664,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S" library="SparkFun-RF" deviceset="ANTENNA-SMA-GROUNDED" device="EDGE_SMA"/>
 <part name="2" library="SparkFun-RF" deviceset="ANTENNA-SMA-GROUNDED" device="EDGE_SMA"/>
 <part name="1" library="SparkFun-RF" deviceset="ANTENNA-SMA-GROUNDED" device="EDGE_SMA"/>
-<part name="U1" library="BP2G1" deviceset="BP2G1+_POWER_SPLITTER" device=""/>
+<part name="U1" library="SparkFun-RF" deviceset="BP2G1+_POWER_SPLITTER" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
