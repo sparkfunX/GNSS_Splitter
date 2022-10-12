@@ -15,7 +15,7 @@
 
 *[SparkX GNSS Antenna Splitter (Power Divider) with DC Pass (SPX-21223)](https://www.sparkfun.com/products/21223)*
 
-The [SparkX GNSS Antenna Splitter (Power Divider) with DC Pass (SPX-21223)](https://www.sparkfun.com/products/21223) lets you connect a single GNSS antenna to two boards or modules. It splits (divides) the antenna signal from Port S equally between Port 1 and Port 2. It is the perfect accessory for our [NEO-D9S correction data receiver]((https://www.sparkfun.com/products/19390), allowing you to feed both the NEO-D9S and a separate GNSS module from a single antenna.
+The [SparkX GNSS Antenna Splitter (Power Divider) with DC Pass (SPX-21223)](https://www.sparkfun.com/products/21223) lets you connect a single GNSS antenna to two boards or modules. It splits (divides) the antenna signal from Port S equally between Port 1 and Port 2. It is the perfect accessory for our [NEO-D9S correction data receiver](https://www.sparkfun.com/products/19390), allowing you to feed both the NEO-D9S and a separate GNSS module from a single antenna.
 
 Our board is based on the BP2G1+ 2-way 50Ω DC Pass Power Splitter from Mini-Circuits. It covers the L-band frequencies from 1200 to 2000 MHz. The three ports are equipped with robust standard-polarity SMA sockets. We have an SMA Male-Male adapter available as an accessory should you want to change any or all sockets into plugs.
 
@@ -27,7 +27,7 @@ By default, the splitter will pass DC power from Port 1 to the antenna (Port S) 
 
 If your antenna needs 3.3V, Qwiic could be a good choice for you. The VCC and GND breakout pads will allow you to feed in a higher voltage (e.g. 5V) if required.
 
-We have included a 10Ω current-limiting resistor for the Qwiic and VCC power connections, to help prevent damage if the antenna cable becomes shorted. If your antenna needs more than approx. 30mA, you can close the Ilim jumper to bypass the resistor.
+We have included a 10Ω current-limiting resistor for the Qwiic and VCC power connections, to help prevent damage if the antenna cable becomes shorted. If your antenna needs more than approx. 30mA, you can close the I<sub>lim</sub> jumper to bypass the resistor.
 
 ## Repository Contents
 
