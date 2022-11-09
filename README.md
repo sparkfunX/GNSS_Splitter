@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/twitter/follow/sparkfun.svg?style=social&logo=twitter" alt="follow on Twitter"></a>
 </p>
 
-[![SparkX GNSS Antenna Splitter (Power Divider) with DC Pass]()](https://www.sparkfun.com/products/21223)
+[![SparkX GNSS Antenna Splitter (Power Divider) with DC Pass](https://cdn.sparkfun.com/assets/parts/2/0/9/9/2/21223-_SPX-_01.jpg)](https://www.sparkfun.com/products/21223)
 
 *[SparkX GNSS Antenna Splitter (Power Divider) with DC Pass (SPX-21223)](https://www.sparkfun.com/products/21223)*
 
